@@ -118,7 +118,7 @@ const App = ({ signOut }) => {
     key={note.id || note.name}
     direction="row"
     justifyContent="center"
-    alignItems="center"
+    alignItems="left"
   >
     <Text as="strong" fontWeight={900}>
       {note.name}
